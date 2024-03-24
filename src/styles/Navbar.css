@@ -1,0 +1,120 @@
+.navbar-container {
+  background-color: #526d8298;
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 0px 20px;
+  margin: 10px 20px;
+  backdrop-filter: blur(2px);
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+.navbar-sub-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+
+.left-items {
+  display: flex;
+  cursor: pointer;
+}
+
+.right-items {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.right-items a {
+  padding: 5px 10px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: color 0.2s, background-color 0.2s;
+  cursor: pointer;
+}
+.right-items a:hover {
+  background-color: #27374d;
+  color: white;
+}
+
+.right-items-mobile {
+  display: none;
+}
+
+.menu-button-container {
+  display: none;
+}
+
+.menu-button-container button {
+  border-radius: 10px;
+  border: 0px solid transparent;
+  padding: 10px 10px;
+  margin-bottom: 5px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.menu-button-container button:hover {
+  background-color: #27374d;
+  color: white;
+}
+
+@media only screen and (max-width: 700px) {
+  .right-items {
+    display: none;
+  }
+
+  .menu-button-container {
+    display: block;
+  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+  background-color: white;
+  backdrop-filter: blur(2px);
+  right: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  animation: dropdownOpenAnim 0.3s;
+}
+
+@keyframes dropdownOpenAnim {
+  0% {
+    height: 0px;
+    background-color: transparent;
+  }
+  100% {
+    background-color: white;
+    height: 180px;
+  }
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: color 0.1s, background-color 0.1s;
+}
+
+.dropdown-content a:hover {
+  background-color: #27374d;
+  color: white;
+  border-radius: 10px;
+}
