@@ -6,20 +6,24 @@ import VOID from "../assets/games/void.png";
 import Lost_Dungeon from "../assets/games/lost_dungeon.png";
 import TowerOne from "../assets/games/towerone.png";
 
+import { SiWindows11 } from "react-icons/si";
+import { IoLogoAndroid } from "react-icons/io";
+import { BsBrowserChrome } from "react-icons/bs";
+
 export const gameList = [
   {
     name: "VOID",
     details: "Top down sruvival shooter",
     coverImage: VOID,
     downloadLink: "https://zarifdesanta.itch.io/void",
-    platform: "W",
+    platform: <SiWindows11 size={15}></SiWindows11>,
   },
   {
     name: "EDGE",
     details: "Story driven atmospheric",
     coverImage: EDGE,
     downloadLink: "https://zarifdesanta.itch.io/edge",
-    platform: "W",
+    platform: <SiWindows11 size={15}></SiWindows11>,
   },
   {
     name: "HyperChute",
@@ -27,7 +31,7 @@ export const gameList = [
     coverImage: HyperChute,
     downloadCount: 1,
     downloadLink: "https://zarifdesanta.itch.io/hyperchute",
-    platform: "A",
+    platform: <IoLogoAndroid size={20}></IoLogoAndroid>,
   },
   {
     name: "Tower One",
@@ -35,7 +39,7 @@ export const gameList = [
     coverImage: TowerOne,
     downloadCount: 1,
     downloadLink: "https://zarifdesanta.itch.io/towerone",
-    platform: "A",
+    platform: <IoLogoAndroid size={20}></IoLogoAndroid>,
   },
   {
     name: "Lost Dungeon",
@@ -43,7 +47,7 @@ export const gameList = [
     coverImage: Lost_Dungeon,
     downloadCount: 1,
     downloadLink: "https://zarifdesanta.itch.io/lost-dungeon",
-    platform: "W",
+    platform: <SiWindows11 size={15}></SiWindows11>,
   },
   {
     name: "PICOTO",
@@ -51,6 +55,6 @@ export const gameList = [
     coverImage: PICOTO,
     downloadCount: 1,
     downloadLink: "https://zarifdesanta.itch.io/picoto",
-    platform: "W, A, Web",
+    platform: <BsBrowserChrome size={15}></BsBrowserChrome>,
   },
 ];
