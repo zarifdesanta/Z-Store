@@ -17,6 +17,10 @@
   align-items: center;
 }
 
+.details-header h3 {
+  font-size: 28px;
+}
+
 .deatils-features-container {
   line-height: 25px;
 }

@@ -17,7 +17,7 @@ export const wallList = [
     downloadLink: "download link",
   },
   {
-    name: "Name2",
+    name: "Mat Sea",
     details: "This app does this",
     coverImage: MatSea,
     resolution: "1920x1080",

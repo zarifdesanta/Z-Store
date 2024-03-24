@@ -23,8 +23,12 @@ function AppDetails(props) {
         <div className="details-header">
           <img src={data.logo} className="logo-image"></img>
           <h3>{data.name}</h3>
+          <div className="download-button-container">
+            <button className="download-button">Download</button>
+          </div>
         </div>
         <h3>{data.details}</h3>
+
         <div className="deatils-features-container">
           <h3>Features</h3>
 
