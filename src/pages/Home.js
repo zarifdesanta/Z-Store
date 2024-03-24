@@ -8,6 +8,8 @@ import AppCard from "../components/AppCard";
 import WallCard from "../components/WallCard";
 import GameCard from "../components/GameCard";
 
+import { IoIosMore } from "react-icons/io";
+
 function Home() {
   return (
     <>
@@ -57,7 +59,7 @@ function Home() {
             target="_blank"
             href="https://vangari.netlify.app/"
           >
-            View More
+            <IoIosMore size={20}></IoIosMore>
           </a>
         </div>
       </section>
@@ -85,7 +87,7 @@ function Home() {
             target="_blank"
             href="https://zarifdesanta.itch.io/"
           >
-            View More
+            <IoIosMore size={20}></IoIosMore>
           </a>
         </div>
       </section>

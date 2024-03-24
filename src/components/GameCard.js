@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "../styles/Card.css";
 
+import { LuDownload } from "react-icons/lu";
+
 function GameCard(props) {
   const [downloadCount, setDownloadCount] = useState(0);
 
@@ -26,7 +28,7 @@ function GameCard(props) {
           href={props.downloadLink}
           className="download-button"
         >
-          Download
+          <LuDownload size={25}></LuDownload>
         </a>
         {/* <p>{downloadCount}</p> */}
       </div>

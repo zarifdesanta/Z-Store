@@ -72,11 +72,11 @@
 }
 
 .download-button {
-  font-size: 14px;
+  font-size: 0px;
   text-decoration: none;
   border-radius: 10px;
   border: 0px solid transparent;
-  padding: 10px 10px;
+  padding: 5px 15px;
   margin-bottom: 5px;
   color: black;
   background-color: white;

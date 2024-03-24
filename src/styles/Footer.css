@@ -16,3 +16,16 @@
   color: white;
   align-items: center;
 }
+
+.footer-sub-container p a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-sub-container p a:not(:last-child) {
+  padding-right: 5px;
+}
+
+.footer-sub-container p a:hover {
+  color: #27374d;
+}

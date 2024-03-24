@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../styles/Navbar.css";
 import { Link } from "react-router-dom";
+import { IoMenu } from "react-icons/io5";
 
 function Navbar() {
   const [isShowing, setIsShowing] = useState(false);
@@ -21,15 +22,17 @@ function Navbar() {
           <a href="#apps">Apps</a>
           <a href="#wallpapers">Wallpapers</a>
           <a href="#games">Games</a>
-          <a target="_blank" href="https://zarfdev.netlify.app/">
+          {/* <a target="_blank" href="https://zarfdev.netlify.app/">
             About Me
-          </a>
+          </a> */}
         </div>
 
         <div className="menu-button-container">
           <div class="dropdown">
             <div className="menu-button-container">
-              <button onClick={() => showDropdownMenu()}>Menu</button>
+              <button onClick={() => showDropdownMenu()}>
+                <IoMenu size={20}></IoMenu>
+              </button>
             </div>
             <div
               class="dropdown-content"
@@ -44,13 +47,13 @@ function Navbar() {
               <a href="#games" onClick={() => showDropdownMenu()}>
                 Games
               </a>
-              <a
+              {/* <a
                 target="_blank"
                 href="https://zarfdev.netlify.app/"
                 onClick={() => showDropdownMenu()}
               >
                 About Me
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

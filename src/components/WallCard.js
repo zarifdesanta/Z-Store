@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "../styles/Card.css";
 
+import { LuDownload } from "react-icons/lu";
+
 function WallCard(props) {
   const [downloadCount, setDownloadCount] = useState(0);
 
@@ -27,7 +29,7 @@ function WallCard(props) {
           href={props.coverImage}
           title={props.name}
         >
-          Download
+          <LuDownload size={25}></LuDownload>
         </a>
         {/* <p>{downloadCount}</p> */}
       </div>

@@ -29,11 +29,11 @@ html {
 }
 
 .view-more-button {
-  font-size: 14px;
+  font-size: 0px;
   text-decoration: none;
   border-radius: 10px;
   border: 0px solid transparent;
-  padding: 5px 5px;
+  padding: 0px 15px;
   color: black;
   background-color: white;
   cursor: pointer;

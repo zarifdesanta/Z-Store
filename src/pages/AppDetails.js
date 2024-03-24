@@ -3,6 +3,8 @@ import { useParams } from "react-router-dom";
 import { appList } from "../helpers/AppList";
 import "../styles/AppDetails.css";
 
+import { LuDownload } from "react-icons/lu";
+
 function AppDetails(props) {
   const { id } = useParams();
 
@@ -30,7 +32,7 @@ function AppDetails(props) {
               href={data.downloadLink}
               className="download-button"
             >
-              Download
+              <LuDownload size={25}></LuDownload>
             </a>
           </div>
         </div>
