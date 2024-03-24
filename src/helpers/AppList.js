@@ -11,6 +11,11 @@ export const appList = [
     coverImage: DummyImage,
     downloadCount: 1,
     downloadLink: "download link",
+    features: [
+      "Dark and light theme",
+      "Task completion filter",
+      "Task editable",
+    ],
   },
   {
     name: "Weather",
@@ -19,6 +24,12 @@ export const appList = [
     coverImage: DummyImage,
     downloadCount: 0,
     downloadLink: "download link",
+    features: [
+      "Dark and light theme",
+      "Current weather and condition",
+      "Location based on city and country",
+      "No location tracking or location permission needed",
+    ],
   },
   {
     name: "Money Tracker",
@@ -27,5 +38,12 @@ export const appList = [
     coverImage: DummyImage,
     downloadCount: 2,
     downloadLink: "download link",
+    features: [
+      "Dark and light theme",
+      "Progress bar and tracking",
+      "Add and remove expense",
+      "Set daily limit",
+      "History",
+    ],
   },
 ];

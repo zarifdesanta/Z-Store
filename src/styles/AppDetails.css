@@ -1,0 +1,32 @@
+.details-sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #526d8298;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 20px;
+  gap: 20px;
+  color: white;
+}
+
+.details-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deatils-features-container {
+  line-height: 25px;
+}
+
+.deatils-features-container h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.deatils-features-container li {
+  font-size: 16px;
+  font-weight: 400;
+}
