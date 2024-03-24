@@ -5,7 +5,7 @@ import WeatherLogo from "../assets/appIcons/weather.png";
 export const appList = [
   {
     name: "To Do",
-    details: "This app does this",
+    details: "A minimal todo app",
     logo: TodoLogo,
     coverImage: DummyImage,
     downloadCount: 1,
@@ -13,7 +13,7 @@ export const appList = [
   },
   {
     name: "Weather",
-    details: "This app does this",
+    details: "A minimal weather app",
     logo: WeatherLogo,
     coverImage: DummyImage,
     downloadCount: 0,
@@ -21,7 +21,7 @@ export const appList = [
   },
   {
     name: "Money Tracker",
-    details: "This app does this",
+    details: "A minimal expense tracking app",
     logo: TodoLogo,
     coverImage: DummyImage,
     downloadCount: 2,

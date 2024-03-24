@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isShowing, setIsShowing] = useState(false);
@@ -12,7 +13,9 @@ function Navbar() {
     <div className="navbar-container">
       <div className="navbar-sub-container">
         <div className="left-items">
-          <h3>Z-STORE</h3>
+          <Link to="/" style={{ textDecoration: "none", color: "white" }}>
+            <h3>Z-STORE</h3>
+          </Link>
         </div>
         <div className="right-items">
           <a href="#apps">Apps</a>

@@ -15,7 +15,7 @@ function WallCard(props) {
       <div className="details-text">
         <div>
           <h3>{props.name}</h3>
-          <p>{props.details}</p>
+          {/* <p>{props.details}</p> */}
         </div>
         <p>{props.resolution}</p>
       </div>
