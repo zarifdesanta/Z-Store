@@ -42,6 +42,10 @@
   background-color: #27374d;
   color: white;
 }
+.right-items a:active {
+  background-color: #27374d;
+  color: white;
+}
 
 .right-items-mobile {
   display: none;

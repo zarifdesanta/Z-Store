@@ -1,6 +1,7 @@
 import DummyImage from "../assets/appImages/bcalc.png";
 import TodoLogo from "../assets/appIcons/todo.png";
 import WeatherLogo from "../assets/appIcons/weather.png";
+import MoneyTrackerLogo from "../assets/appIcons/expense.png";
 
 export const appList = [
   {
@@ -22,7 +23,7 @@ export const appList = [
   {
     name: "Money Tracker",
     details: "A minimal expense tracking app",
-    logo: TodoLogo,
+    logo: MoneyTrackerLogo,
     coverImage: DummyImage,
     downloadCount: 2,
     downloadLink: "download link",
