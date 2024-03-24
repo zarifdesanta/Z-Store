@@ -10,7 +10,8 @@ export const appList = [
     logo: TodoLogo,
     coverImage: DummyImage,
     downloadCount: 1,
-    downloadLink: "download link",
+    downloadLink:
+      "https://drive.google.com/file/d/1EcAih63mhm219JDr8jOEtUCiit7l-qmM/view?usp=sharing",
     features: [
       "Dark and light theme",
       "Task completion filter",
@@ -23,7 +24,8 @@ export const appList = [
     logo: WeatherLogo,
     coverImage: DummyImage,
     downloadCount: 0,
-    downloadLink: "download link",
+    downloadLink:
+      "https://drive.google.com/file/d/1cmOoF7lIvq04KEPixwvF4S0ux_CK2ZiD/view?usp=sharing",
     features: [
       "Dark and light theme",
       "Current weather and condition",
@@ -37,7 +39,8 @@ export const appList = [
     logo: MoneyTrackerLogo,
     coverImage: DummyImage,
     downloadCount: 2,
-    downloadLink: "download link",
+    downloadLink:
+      "https://drive.google.com/file/d/1ANRzip27HLN3FewqnR_2jNeCEVKOCvm0/view?usp=sharing",
     features: [
       "Dark and light theme",
       "Progress bar and tracking",

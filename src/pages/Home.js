@@ -23,6 +23,7 @@ function Home() {
                   details={item.details}
                   logo={item.logo}
                   downloadCount={item.downloadCount}
+                  downloadLink={item.downloadLink}
                   id={key}
                 ></AppCard>
               );

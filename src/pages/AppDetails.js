@@ -11,6 +11,7 @@ function AppDetails(props) {
     logo: appList[id].logo,
     details: appList[id].details,
     features: appList[id].features,
+    downloadLink: appList[id].downloadLink,
   };
 
   useEffect(() => {
@@ -24,7 +25,13 @@ function AppDetails(props) {
           <img src={data.logo} className="logo-image"></img>
           <h3>{data.name}</h3>
           <div className="download-button-container">
-            <button className="download-button">Download</button>
+            <a
+              target="_blank"
+              href={data.downloadLink}
+              className="download-button"
+            >
+              Download
+            </a>
           </div>
         </div>
         <h3>{data.details}</h3>

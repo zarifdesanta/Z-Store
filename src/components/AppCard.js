@@ -37,7 +37,13 @@ function AppCard(props) {
       </div>
 
       <div className="download-button-container">
-        <button className="download-button">Download</button>
+        <a
+          target="_blank"
+          href={props.downloadLink}
+          className="download-button"
+        >
+          Download
+        </a>
         {/* <p>{downloadCount}</p> */}
       </div>
     </div>
